@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image" sizes="32x32" href="favicon-32x32.png">
+    <title>frotend mentor - QR code component challenge</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap"
+      rel="stylesheet">
+    <style>
+html {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+    
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 22px;
+    color: hsl(218, 44%, 22%);
+}
+
+main {
+    
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 1rem;
+    width: 15.6rem;
+    padding: 1rem 1rem 1.5rem 1rem;
+    background-color: hsl(0, 0%, 100%);
+    transition: box-shadow .5s;
+}
+
+main:hover{
+    box-shadow: 0px 11px 39px 9px hsl(210, 30%, 78%);
+}
+
+main img {
+    max-width: 100%;
+    border-radius: .75rem;
+}
+
+footer {
+    width: 250px;
+    text-align: center;
+}   
+
+    </style>
+    </head>
+<body>
+    <main>
+    <img id="QR CODE" src="image-qr-code.png" alt="QR Code">
+    <h1>Improve your front-end skills by building projects </h1>
+    <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+    </main>
+
+    <footer class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank">Frontend Mentor</a>.
+        Coded by Prachi Patel</a>.
+      </footer>
+</body>
+</html>
